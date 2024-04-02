@@ -1,0 +1,17 @@
+body { 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #1CB8FC;
+    height: 100vh;
+    align-items: center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    }
+.card{
+    opacity: 80%;
+    background-color: #f1f1f1;
+    padding: 20px;
+    height: 300px;                
+}
