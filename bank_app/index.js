@@ -33,7 +33,7 @@ class BankAccount{
 
 const acc1 = new BankAccount("1001", "Md Salim Reza", 1000);
 const acc2 = new BankAccount("1102", "Md Sujon Miah", 500);
-console.log(`Initial Balance: ${acc1.balance}`); // Outputs Initial Balance: 100
+console.log(`Initial Balance: ${acc1.balance}`); // Outputs Initial Balance: 1000
 console.log(`Initial Balance:  ${acc2.balance}`); // Outputs Initial Balance: 500
 
 //  Test the deposit method
@@ -54,5 +54,5 @@ status = acc2.withdraw(600);
 console.log(`Status of second withdrawal: ${status}`); // Outputs Status of second withdrawal: false
 
 acc1.displayAccountInfo(); // Outputs Account Number: 1001, Owner Name: Md Salim Reza, Current Balance: $1700.00
-acc2.displayAccountInfo(); // Outputs Account Number: 1102, Owner Name: Md Sujon Miah, Current Balance: $900
+acc2.displayAccountInfo(); // Outputs Account Number: 1102, Owner Name: Md Sujon Miah, Current Balance: $100
 
